@@ -1,0 +1,12 @@
+{
+  "domain": "dairy-contact-tracing",
+  "animals": [
+    {"animal_key": "AN-0007", "tags": [{"value": "CN-3307-A", "valid_from": "2026-01-01T00:00:00+08:00", "valid_to": "2026-09-10T14:00:00+08:00"}, {"value": "CN-3307-B", "valid_from": "2026-09-10T14:00:00+08:00", "valid_to": null}]},
+    {"animal_key": "AN-0012", "tags": [{"value": "CN-3312-A", "valid_from": "2026-01-01T00:00:00+08:00", "valid_to": null}]}
+  ],
+  "resource_events": [
+    {"event_id": "MILK-1", "animal_key": "AN-0007", "resource": "PARLOR-2", "starts_at": "2026-09-11T05:10:00+08:00", "ends_at": "2026-09-11T05:18:00+08:00"},
+    {"event_id": "MILK-2", "animal_key": "AN-0012", "resource": "PARLOR-2", "starts_at": "2026-09-11T05:17:00+08:00", "ends_at": "2026-09-11T05:25:00+08:00"}
+  ],
+  "lab_results": [{"result_id": "LAB-9-R2", "supersedes": "LAB-9-R1", "animal_key": "AN-0007", "result": "positive", "observed_at": "2026-09-11T07:30:00+08:00"}]
+}
